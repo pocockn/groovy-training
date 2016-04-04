@@ -4,6 +4,6 @@
  */
 class GetGameDataTest {
 
-    GetGameData ggd = new GetGameData(month: 10, day:28, year:2007)
+    GetGameData ggd = new GetGameData(month: 10, day:28, year:2007 )
 }
 
