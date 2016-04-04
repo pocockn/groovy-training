@@ -4,7 +4,11 @@
 class GameResult {
     String home
     String away
-    String hscore
-    String Score
+    String hScore
+    String aScore
     Stadium stadium
+
+    String toString() {
+     "$home $hScore, $away $aScore"
+    }
 }
